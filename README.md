@@ -1,6 +1,4 @@
-# 🌿 Urban Green Cover AI
-
-![Dashboard](images/dashboard.png)
+# 🌿 GreenLens
 
 A full-stack Streamlit application for analysing, simulating, and reporting on urban green cover health across city wards.
 
