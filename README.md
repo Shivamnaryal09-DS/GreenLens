@@ -1,5 +1,7 @@
 # 🌿 Urban Green Cover AI
 
+![Dashboard](images/dashboard.png)
+
 A full-stack Streamlit application for analysing, simulating, and reporting on urban green cover health across city wards.
 
 ## Features
@@ -12,6 +14,17 @@ A full-stack Streamlit application for analysing, simulating, and reporting on u
 | 📄 Upload Policy | PDF/TXT/CSV document extractor with NLP-based signal detection |
 | 📈 Analytics | NDVI trends, heatmap, green cover correlation analysis |
 | ⚙️ Settings | City config, data refresh, export preferences |
+
+## 📸 Screenshots
+
+### 📊 Dashboard
+![Dashboard](images/dashboard.png)
+
+### 🗺️ Risk Map
+![Risk Map](images/risk_map.png)
+
+### 🔬 Policy Simulator
+![Simulator](images/simulator.png)
 
 ## Project Structure
 
