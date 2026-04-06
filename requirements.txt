@@ -1,0 +1,27 @@
+# Urban Green Cover AI — Python Dependencies
+# Install: pip install -r requirements.txt
+
+# ── Core ──────────────────────────────────────────────────────────
+streamlit>=1.32.0
+pandas>=2.0.0
+numpy>=1.24.0
+
+# ── Data & ML ────────────────────────────────────────────────────
+scikit-learn>=1.3.0         # Risk scoring, clustering
+scipy>=1.11.0               # Statistical utilities
+
+# ── Visualisation ────────────────────────────────────────────────
+plotly>=5.18.0              # Interactive charts (used via st.plotly_chart)
+altair>=5.2.0               # Declarative charts
+
+# ── Document Parsing ─────────────────────────────────────────────
+pdfplumber>=0.10.0          # PDF text extraction
+openpyxl>=3.1.0             # Excel file support
+
+# ── NLP / Extraction ─────────────────────────────────────────────
+# transformers>=4.36.0      # Optional: BERT model (heavy dependency)
+# torch>=2.1.0              # Optional: required by transformers
+
+# ── Utilities ────────────────────────────────────────────────────
+python-dotenv>=1.0.0        # Environment variable management
+requests>=2.31.0            # HTTP requests (future API integration)
